@@ -1,10 +1,10 @@
 function initMap() {
 
   const waypts = [
-  {location:new google.maps.LatLng(21.2956515, -157.8592579), stopover:true},
-  {location:new google.maps.LatLng(21.2993957, -157.8591853), stopover:true},
-  {location:new google.maps.LatLng(21.2970166, -157.8599900), stopover:true},
-  {location:new google.maps.LatLng(21.2975939, -157.8604098), stopover:true}
+    {location:new google.maps.LatLng(21.2956515, -157.8592579), stopover:true},
+    {location:new google.maps.LatLng(21.2993957, -157.8591853), stopover:true},
+    {location:new google.maps.LatLng(21.2970166, -157.8599900), stopover:true},
+    {location:new google.maps.LatLng(21.2975939, -157.8604098), stopover:true}
   ];
 
   const origin =  new google.maps.LatLng(21.295714, -157.856714);
@@ -203,11 +203,13 @@ function initMap() {
 
   calculateAndDisplayRoute(directionsService, directionsDisplay);
 
-  waypts.forEach((waypoint, i, a) => {
+  let fakeLikes = ['456', '237', '1,379', '122'];
 
-    let fakeLikes = ['456', '237', '1,379', '122'];
-    makeMarker(map, waypoint.location, uncheckedImg, fakeLikes[i] );
-  });
+  makeMarker(map, waypts[0].location, checkedImg, fakeLikes[0]);
+
+  for (var i = 1; i < 4; i++){
+    makeMarker(map, waypts[i].location, uncheckedImg, fakeLikes[i]);
+  };
 
   makeMarker(map, destination, beer, "");
 
@@ -263,7 +265,7 @@ function makeMarker (map, position, icon, label ) {
   marker.addListener('click', function(e) {
     marker.setIcon({url: './custom-files/check-done.svg', labelOrigin: new google.maps.Point(30, -3), scaledSize: new google.maps.Size(24, 24)});
     // 12 and -7 were the old values
-    console.log('click is happening');
-
+    // console.log(e);
   });
+
 }
