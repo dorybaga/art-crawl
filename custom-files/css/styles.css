@@ -1,10 +1,4 @@
-
-
-
-
-/* --------------------------------------
-   Navbar
-   -------------------------------------- */
+/*Navbar*/
 	.navbar {
 		background-color: #fff;
 		border-radius: 0;
@@ -87,21 +81,12 @@
 		}
 	}
 
-
-/* --------------------------------------
-   Carousel
-   -------------------------------------- */
-
-
-
 /* Global Styles */
 	.btn-link:hover, .btn-link:focus {
 		text-decoration: none;
 	}
 
 /* Index style */
-
-
 #map {
   width: 100%;
   height: 60rem;
@@ -119,7 +104,7 @@
   outline: none;
 }
 
-.btn {
+.btn-index {
   font-size: 25px;
   color: black;
   background-color: white;
@@ -149,6 +134,7 @@
 	background-image: linear-gradient(to right, rgba(57, 204, 204, 0.4)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	opacity: 0.6;
 }
+
 h3 {
   text-align: center;
 }
@@ -225,10 +211,6 @@ h3 {
 	top: -20px;
 }
 
-/* --------------------------------------
-   Media Queries
-   -------------------------------------- */
-
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
 
@@ -245,31 +227,63 @@ h3 {
 
 }
 
-h3, h4, h5, h6{
+h3, h4, h6{
   color: #373432;
 }
 
+/*Details*/
 .about {
   margin-left: 7px;
   margin-right: 7px;
 }
 
-.jumbotron {
-  min-height: 400px;
+.jumbotron-details {
+  background-image: url("https://cdn.shopify.com/s/files/1/0225/8561/products/2017_womens_racerback_1024x1024.jpg?v=1485933709");
   background-size: cover;
+  height: 500px;
+}
+
+.jumbotron-map {
+  background-image: url('http://powwowhawaii.com/wp-content/uploads/2017/03/pwh2017_KevinLyons02_BrandonShigeta.jpg');
+  background-size: cover;
+  height: 150px;
 }
 
 .about, .piece {
   margin-left: 7px;
   margin-right: 7px;
-  color: #7d7672;
+  color: #373432;
+}
+
+.box {
+  background-color: black;
+  opacity: .8;
+  color: yellow;
+}
+
+.map-thumb {
+  background-color: black;
+  opacity: .8;
+  color: white;
+}
+
+.about-artist, .about-piece {
+  margin-left: 7px;
+  margin-right: 7px;
+  color: #373432;
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
 }
 
 .name {
   font-family: 'Lato', sans-serif;
 }
 
-h3, h4, h5 {
+.piece-name {
+  text-align: center;
+}
+
+h3, h4, {
   text-align: center;
 }
 
@@ -308,8 +322,7 @@ h3, h4, h5 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 40px;
-  background-color: white;
+  font-size: 30px;
 }
 
 .gly {
