@@ -17,6 +17,11 @@ checkin.addEventListener('click', function(e) {
   } else {
     checkin.style.color = 'rgb(51, 204, 153)';
   }
+
+  setTimeout(function(){
+    console.log('waiting');
+    window.location = './secondmap.html';
+  }, 500);
 });
 
 const share = document.getElementById('share');
