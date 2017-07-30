@@ -288,6 +288,20 @@ h3, h4, {
   text-align: center;
 }
 
+.nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  background-color: white;
+}
+
+.gly {
+  padding: 20px 20px 20px 20px;
+}
+
+/*Deals page styling*/
+
 #restaurant {
   display: inline;
 }
@@ -309,23 +323,25 @@ h3, h4, {
   font-weight: bold;
 }
 
-#menuBtn {
-  font-size: 16px;
+#info {
+  padding-left: 10px;
+}
+
+#saveBtn {
+  font-size: 18px;
   font-weight: bold;
-  display: inline;
 }
 
-#yelpBtn {
-  padding-bottom: 5px;
-}
-
-.nav-row {
+.saveBtn {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid;
+  padding: 10px;
   font-size: 30px;
 }
 
-.gly {
-  padding: 20px 20px 20px 20px;
+#yelpBtn {
+  float: right;
+  transform: translateY(-25px);
 }

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 
 <html>
   <head>
@@ -22,7 +22,7 @@
 
   </head>
   <body>
-  <header>
+    <header>
       <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -59,31 +59,32 @@
         </div>
       </nav>
     </header>
-   <!--details of deal start here-->
-  <div class="row">
-    <img src="/custom-files/beer-coupon.svg" height="360" id="coupon" alt="coupon" onclick="showQR(this)">
-    <div class="container saveBtn">
-      <button id="saveBtn">Save to My Deals</button>
-    </div>
-    <br>
-    <div id="info">
-      <h3 id="restaurant">Bevy Bar</h3>
-      <img src="/custom-files/star-ratings.svg" height="25" width="120" id="rating" alt="review ratings">
-      <div class="caption">
-      <div>Cocktail Bars, Sandwiches</div>
-      <div>Hours Today: 4:00 PM - 2:00 AM</div>
-      <br>
-      <div>Phone: (808) 594-7445 </div>
-      <div>675 Auahi St, Ste 130
-      <br> Honolulu, HI 96813</div>
-      <div id="yelpBtn">
-      <img src="/custom-files/yelp-logo.png" height="100" width="160" alt="yelp">
+
+    <section class="container">
+      <div id="map"></div>
+    </section>
+
+    <section class="container">
+      <div class="col-sm-3">
+        <div class="icon">
+        </div>
       </div>
-    </div>
-  </div><!-- end caption -->
-</div><!-- end row -->
+      <div class="col-sm-9">
+        <!-- Title of art piece / location -->
+        <h2>Big Slick Aloha</h2>
+        <!-- Artist name / bar description -->
+        <p>OG SLICK</p>
+      </div>
+    </section>
+
 
   <!-- All Javascript at the bottom of the page for faster page loading -->
+
+    <!-- Google Maps related -->
+  <script src = './custom-files/js/secondmap.js'></script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgroaOXsTk0I0J0xH8zysbd9lnQP1b6MU&callback=initMap">
+  </script>
 
   <!-- First try for the online version of jQuery-->
   <script src="http://code.jquery.com/jquery.js"></script>
@@ -99,4 +100,3 @@
 
   </body>
 </html>
-
