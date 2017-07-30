@@ -1,8 +1,8 @@
 [
 
 {"placeId": "1",
-"artistName": "OG Slick",
-"artistURL": "https://www.instagram.com/og_slick/?hl=en",
+"artistName": "OG SLICK",
+"artistURL": "http://www.ogslick.com/",
 "muralImg": "http://powwowhawaii.com/wp-content/uploads/2017/03/pwh2017_OGSlick01_BrandonShigeta.jpg",
 "muralName": "Big Slick Aloha",
 "latitute": "21.295967",
