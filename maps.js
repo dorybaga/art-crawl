@@ -209,7 +209,23 @@ function initMap() {
     makeMarker(map, waypoint.location, uncheckedImg, fakeLikes[i] );
   });
 
-  makeMarker(map, destination, beer, "");
+  // makeMarker(map, destination, beer, "");
+
+  let beermarker = new google.maps.Marker({
+    position: destination,
+    map: map,
+    icon: {url: beer, labelOrigin: new google.maps.Point(30, -3), scaledSize: new google.maps.Size(24, 24)},
+    label: "",
+    // label: {color: 'blue', fontFamily: 'TimesNewRoman', fontSize: '20px', textlabel: label},
+    // labelOrigin: new google.maps.Point(0, 50),
+    labelClass: "labels" // the CSS class for the label
+    // labelStyle: {opacity: 1}
+  });
+
+
+  beermarker.addListener('click', function(e) {
+    window.location = './deals.html';
+  });
 
   makeMarker(map, origin, currentLocImg, "");
 
@@ -265,5 +281,13 @@ function makeMarker (map, position, icon, label ) {
     // 12 and -7 were the old values
     console.log('click is happening');
 
+    let mapdiv = document.getElementById('map');
+    mapdiv.className='shortmap';
+
   });
 }
+
+let footer = document.getElementById('mapfooter');
+footer.addEventListener('click', function(e){
+  window.location = './details.html';
+});
