@@ -12,17 +12,53 @@
 
     <!-- Bootstrap CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link href="custom-files/css/bootstrap-glyphicons.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="includes/css/styles.css" rel="stylesheet">
+    <link href="custom-files/css/styles.css" rel="stylesheet">
 
     <!-- Include Modernizr in the head, before any other Javascript -->
-    <script src="includes/js/modernizr-2.6.2.min.js"></script>
+    <script src="custom-files/js/modernizr-2.6.2.min.js"></script>
 
   </head>
   <body>
-  <h1>Hello World</h1>
+  <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand avatar pull-left" href="#">
+              <img src="custom-files/katie.jpg" alt="Obama" class="">
+            </a>
+            <!--Logo Here-->
+          </div>
+          <button type="button" class="navbar-btn btn btn-link navbar-toggle collapsed" data-toggle="modal" data-target="#menuModal">
+            <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+          </button>
+
+          <!-- FULLSCREEN MODAL CODE (.fullscreen) -->
+          <div class="modal fade fullscreen" id="menuModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content" style="color:#fff;">
+                <div class="modal-header" style="border:0;">
+                    <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true">
+                      <span class="glyphicon glyphicon-remove" aria-hidden="true"></span<
+                    </button>
+                    <!-- <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4> -->
+                </div>
+                <div class="modal-body text-center">
+                  <ul style="list-style-type:none;">
+                    <li><a href="/map" class="big">Start Crawl</a></li>
+                    <!--<li><a href="#" class="big">Events</a></li>-->
+                    <li><a href="#" class="big">Explore All</a></li>
+                    <!--<li><a href="#" class="big">Marketplace</a></li>-->
+                  </ul>
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div><!-- /.fullscreen -->
+        </div>
+      </nav>
+    </header>
 
 
   <!-- All Javascript at the bottom of the page for faster page loading -->
