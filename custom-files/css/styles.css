@@ -265,6 +265,7 @@ h3, h4, h6{
   background-color: black;
   opacity: .8;
   color: white;
+  position: relative;
 }
 
 .about-artist, .about-piece {
