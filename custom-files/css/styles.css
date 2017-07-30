@@ -98,7 +98,7 @@
 }
 
 .icon {
-  background-image: url('custom-files/pwh2017_KevinLyons02_BrandonShigeta.jpg');
+  background-image: url('https://joshualeehawaii.github.io/art-crawl/custom-files/pwh2017_KevinLyons02_BrandonShigeta.jpg');
   background-size: contain;
   display: inline-block;
   height: 100px;
@@ -119,7 +119,7 @@
 	color: #fff;
 }
 .crawl-block {
-	background: url('custom-files/crawl-bkgd.png');
+	background: url('https://joshualeehawaii.github.io/art-crawl/custom-files/crawl-bkgd.png');
 	background-size: cover;
 }
 .btn-crawl {
@@ -130,7 +130,7 @@
 	opacity: 0.5;
 }
 .explore-block {
-	background: url('custom-files/explore-bkgd.jpg');
+	background: url('https://joshualeehawaii.github.io/art-crawl/custom-files/explore-bkgd.jpg');
 	background-size: cover;
 }
 .btn-explore {
@@ -250,7 +250,7 @@ h3, h4, h6{
 }
 
 .jumbotron-map {
-  background-image: url('custom-files/pwh2017_KevinLyons02_BrandonShigeta.jpg');
+  background-image: url('https://joshualeehawaii.github.io/art-crawl/custom-files/pwh2017_KevinLyons02_BrandonShigeta.jpg');
   background-size: cover;
   height: 150px;
 }
