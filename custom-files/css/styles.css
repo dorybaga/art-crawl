@@ -322,9 +322,10 @@ h3, h4, h5 {
   align-items: center;
   justify-content: center;
   border: 1px solid;
-
+  padding: 10px;
 }
 
 #yelpBtn {
   float: right;
+  transform: translateY(-25px);
 }
