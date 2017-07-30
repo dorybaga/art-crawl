@@ -12,17 +12,85 @@
 
     <!-- Bootstrap CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link href="custom-files/css/bootstrap-glyphicons.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="includes/css/styles.css" rel="stylesheet">
+    <link href="custom-files/css/styles.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato|Pacifico" rel="stylesheet">
 
     <!-- Include Modernizr in the head, before any other Javascript -->
-    <script src="includes/js/modernizr-2.6.2.min.js"></script>
+    <script src="custom-files/js/modernizr-2.6.2.min.js"></script>
 
   </head>
   <body>
-  <h1>Hello World</h1>
+    <header>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand avatar pull-left" href="#">
+                <img src="custom-files/katie.jpg" alt="Obama" class="">
+              </a>
+              <!--Logo Here-->
+            </div>
+            <button type="button" class="navbar-btn btn btn-link navbar-toggle collapsed" data-toggle="modal" data-target=" #menuModal">
+              <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+            </button>
+
+            <!-- FULLSCREEN MODAL CODE (.fullscreen) -->
+            <div class="modal fade fullscreen" id="menuModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel"   aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content" style="color:#fff;">
+                  <div class="modal-header" style="border:0;">
+                      <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true">
+                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span<
+                      </button>
+                      <!-- <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4> -->
+                  </div>
+                  <div class="modal-body text-center">
+                    <ul style="list-style-type:none;">
+                    <li><a href="/map" class="big">Start Crawl</a></li>
+                    <!--<li><a href="#" class="big">Events</a></li>-->
+                    <li><a href="#" class="big">Explore All</a></li>
+                    <!--<li><a href="#" class="big">Marketplace</a></li>-->
+                    </ul>
+                  </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div><!-- /.fullscreen -->
+          </div>
+        </nav>
+      </header>
+
+      <!--details of artists start here-->
+      <div class="row">
+        <div class="thumbnails row">
+          <div class="thumbnail">
+            <img src="http://powwowhawaii.com/wp-content/uploads/2017/03/pwh2017_KevinLyons02_BrandonShigeta.jpg" alt="oops">
+            <div class="caption">
+            <h3 class="name">KEVIN LYONS</h3>
+            <h4>Fluffy Monsters</h4>
+            <h5>www.naturalborn.com</h5>
+            <h6 class="about">ABOUT THE ARTIST</h6>
+            <p class="about">As a creative director, he has worked with such clients as Nike, Converse, Umbro, Diesel, Proctor and Gamble, Coca-Cola, American Express, among others. While Managing Partner at Anomaly NYC, he won an Emmy for title design for Eric Ripert's PBS series, Avec Eric, and also a Cannes Golden Lion for his campaign for Diesel. Kevin is the former global Creative Director for Urban Outfitters. In a 7-year tenure, he helped shape the brand holistically, including: exterior signage, retail environment, digital design, packaging, posters and promotions, book and catalog design, labeling, and products. Kevin also led the acclaimed music program, oversaw the brand's PR and marketing and the corporate design for the umbrella company Urban Outfitters, Inc. </p>
+            <h6 class="about">ABOUT THE PIECE</h6>
+            <p class="piece">Well, I am at heart always an art director. So I generally need a theme when I start a new piece. As a huge collector of early Rock Steady, I was excited about doing a group portrait of the Originators of Rock Steady and Reggae, but in my Monster Style. So no one is drawn literally in any way, but rather done as Monster interpretations of each artist. That way, it works as both a Monster Pattern as well as a historical reference piece.</p>
+          </div><!-- end caption -->
+         </div><!-- end thumbnail -->
+       </div><!-- end row -->
+      </div><!-- end row  -->
+
+      <div id="footer">
+        <div class="col-xs-12 navbar-inverse nav">
+          <div class="row nav-row" id="bottomNav">
+            <div class="gly"><i class="glyphicon glyphicon-heart"></i><br></a></div>
+            <div class="gly"><i class="glyphicon glyphicon-check"></i><br></a></div>
+            <div class="gly"><i class="glyphicon glyphicon-share"></i><br></a></div>
+            <div class="gly"><i class="glyphicon glyphicon-usd"></i><br></a></div>
+          </div>
+        </div>
+      </div>
+
 
 
   <!-- All Javascript at the bottom of the page for faster page loading -->
@@ -37,7 +105,7 @@
   <script src="bootstrap/js/bootstrap.min.js"></script>
 
   <!-- Custom JS -->
-  <script src="includes/js/script.js"></script>
+  <script src="custom-files/js/script.js"></script>
 
   </body>
 </html>

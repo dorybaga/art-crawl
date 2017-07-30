@@ -1,23 +1,4 @@
-/*
 
-My Custom CSS
-=============
-
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
-
-*/
-
-/* --------------------------------------
-   Layout
-   -------------------------------------- */
-
-
-
-/* --------------------------------------
-   Typography
-   -------------------------------------- */
 
 
 
@@ -119,6 +100,21 @@ Notes:	 Hand coded for Udemy.com
 	}
 
 /* Index style */
+
+
+#map {
+  width: 100%;
+  height: 60rem;
+}
+
+.icon {
+  background-image: url('http://powwowhawaii.com/wp-content/uploads/2017/03/pwh2017_KevinLyons02_BrandonShigeta.jpg');
+  background-size: contain;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
+
 .btn:focus {
   outline: none;
 }
@@ -238,6 +234,7 @@ h3 {
 
 }
 
+
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
 
@@ -247,3 +244,44 @@ h3 {
 @media (min-width: 1200px) {
 
 }
+
+h3, h4, h5, h6{
+  color: #373432;
+}
+
+.about {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.jumbotron {
+  min-height: 400px;
+  background-size: cover;
+}
+
+.about, .piece {
+  margin-left: 7px;
+  margin-right: 7px;
+  color: #7d7672;
+}
+
+.name {
+  font-family: 'Lato', sans-serif;
+}
+
+h3, h4, h5 {
+  text-align: center;
+}
+
+.nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  background-color: white;
+}
+
+.gly {
+  padding: 20px 20px 20px 20px;
+}
+
