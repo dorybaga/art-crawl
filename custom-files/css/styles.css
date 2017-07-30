@@ -1,5 +1,3 @@
-
-
 .btn:focus {
   outline: none;
 }
@@ -100,7 +98,11 @@
   }
 }
 
-h3 {
+h3, h2 {
   text-align: center;
 }
 
+.jumbotron {
+  min-height: 400px;
+  background-size: cover;
+}
