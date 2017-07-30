@@ -125,3 +125,15 @@ h3, h4, h5, h6{
 h3, h4, h5 {
   text-align: center;
 }
+
+.nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  background-color: white;
+}
+
+.gly {
+  padding: 20px 20px 20px 20px;
+}
