@@ -1,0 +1,17 @@
+
+p {
+  text-align: center;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn {
+  font-size: 25px;
+  color: black;
+  background-color: white;
+  border-radius: 0 !important;
+  margin-top: 5px;
+}
+
