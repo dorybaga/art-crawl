@@ -1,7 +1,4 @@
 
-p {
-  text-align: center;
-}
 
 .btn:focus {
   outline: none;
@@ -13,5 +10,6 @@ p {
   background-color: white;
   border-radius: 0 !important;
   margin-top: 5px;
+  opacity: 0.75;
 }
 
