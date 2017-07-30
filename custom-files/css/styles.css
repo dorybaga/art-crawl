@@ -141,6 +141,37 @@ h3, h4, h5 {
   text-align: center;
 }
 
+#restaurant {
+  display: inline;
+}
+
+#rating {
+  float: inline;
+  padding-left: 10px;
+  padding-bottom: 7px
+}
+
+#coupon {
+  display: block;
+  margin: auto;
+}
+
+#deal {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#menuBtn {
+  font-size: 16px;
+  font-weight: bold;
+  display: inline;
+}
+
+#yelpBtn {
+  padding-bottom: 5px;
+}
+
 .nav-row {
   display: flex;
   align-items: center;
@@ -152,3 +183,4 @@ h3, h4, h5 {
 .gly {
   padding: 20px 20px 20px 20px;
 }
+
