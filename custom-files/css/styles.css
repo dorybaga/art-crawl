@@ -150,6 +150,9 @@ h3 {
 .logo img {
 	height: 35px;
 }
+.logo-center .logo {
+	padding: 22.5px 84px;
+}
 
 /* Animation */
 @keyframes circle-animation {
