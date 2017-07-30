@@ -308,12 +308,23 @@ h3, h4, h5 {
   font-weight: bold;
 }
 
-#menuBtn {
-  font-size: 16px;
+#info {
+  padding-left: 10px;
+}
+
+#saveBtn {
+  font-size: 18px;
   font-weight: bold;
-  display: inline;
+}
+
+.saveBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+
 }
 
 #yelpBtn {
-  padding-bottom: 5px;
+  float: right;
 }
