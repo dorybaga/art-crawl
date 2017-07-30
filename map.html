@@ -47,10 +47,10 @@
                 </div>
                 <div class="modal-body text-center">
                   <ul style="list-style-type:none;">
-                    <li><a href="/map" class="big">Plan Your Crawl</a></li>
-                    <li><a href="#" class="big">Events</a></li>
-                    <li><a href="#" class="big">Explore</a></li>
-                    <li><a href="#" class="big">Marketplace</a></li>
+                    <li><a href="/map" class="big">Start Crawl</a></li>
+                    <!--<li><a href="#" class="big">Events</a></li>-->
+                    <li><a href="#" class="big">Explore All</a></li>
+                    <!--<li><a href="#" class="big">Marketplace</a></li>-->
                   </ul>
                 </div>
               </div><!-- /.modal-content -->
@@ -61,8 +61,8 @@
     </header>
 
     <section class="container">
-    <!-- Map goes here -->
-    </div>
+      <div id="map"></div>
+    </section>
 
     <section class="container">
       <div class="col-sm-3">
@@ -71,17 +71,20 @@
       </div>
       <div class="col-sm-9">
         <!-- Title of art piece / location -->
-        <h2></h2>
+        <h2>Big Slick Aloha</h2>
         <!-- Artist name / bar description -->
-        <p></p>
+        <p>OG SLICK</p>
       </div>
     </section>
 
-    <footer>
-    </footer>
-
 
   <!-- All Javascript at the bottom of the page for faster page loading -->
+
+    <!-- Google Maps related -->
+  <script src = './maps.js'></script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgroaOXsTk0I0J0xH8zysbd9lnQP1b6MU&callback=initMap">
+  </script>
 
   <!-- First try for the online version of jQuery-->
   <script src="http://code.jquery.com/jquery.js"></script>

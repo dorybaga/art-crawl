@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DETAILS</title>
+  <link rel="stylesheet" href="custom-files/css/styles.css">
+</head>
+<body>
+<!-- FB SDK SCRIPT -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '126894261260728',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.10'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<!-- END FB SDK SCRIPT -->
+
+<div id="main">Hello World</div>
+
+<!-- NEED TO FIGURE OUT HOW TO SHARE THE LINK CURRENTLY ON -->
+<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-size="small" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
+
+
+    <script src="custom-files/js/buttons.js"></script>
+    <script data-main="custom-files/js/buttons.js" src="custom-files/js/require.js"></script>
+</body>
+</html>
+
+<!-- data-layout="button" -->
+<!-- data-mobile-iframe="true" -->
