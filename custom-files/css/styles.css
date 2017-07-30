@@ -1,4 +1,16 @@
 
+#map {
+  width: 100%;
+  height: 60rem;
+}
+
+.icon {
+  background-image: url('http://powwowhawaii.com/wp-content/uploads/2017/03/pwh2017_KevinLyons02_BrandonShigeta.jpg');
+  background-size: contain;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
 
 .btn:focus {
   outline: none;
